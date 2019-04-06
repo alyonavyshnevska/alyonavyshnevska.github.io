@@ -1,13 +1,37 @@
 body {
   background-color: dimgray;
+  font-family: Helvetica, sans-serif;
+}
+
+html {
+  padding: 1em;
+  font-size: 14px;
 }
 
 h1 {
+  margin-left: 1em;
   color: Lavender;
   font-size: 40px;
+  font-family: Helvetica, sans-serif;
 }
 
-.courier {
-	font-family: Helvetica;
-	color: #DCDCDC;
+h3 {
+  margin-left: 1em;
+  color: Lavender;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  margin-left: 1em;
+  color: Lavender;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a{
+  margin-left: 1em;
+}
+  a:hover {
+  opacity: .5;
 }
