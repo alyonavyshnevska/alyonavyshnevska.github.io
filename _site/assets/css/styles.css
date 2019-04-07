@@ -1,37 +1,37 @@
-body {
-  background-color: dimgray;
-  font-family: Helvetica, sans-serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 html {
   padding: 1em;
-  font-size: 14px;
-}
-
-h1 {
-  margin-left: 1em;
-  color: Lavender;
-  font-size: 40px;
   font-family: Helvetica, sans-serif;
 }
 
-h3 {
+body {
+  font-size: 100%;
+  background-color: dimgray;
   margin-left: 1em;
   color: Lavender;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
-}
-
-p {
-  margin-left: 1em;
-  color: Lavender;
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
-}
+  }
 
 a{
-  margin-left: 1em;
+  }
+  .typewrite{
+    color = white;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(25,25,25);
+    text-align: center;
 }
+
   a:hover {
   opacity: .5;
+  }
+
+
+footer {
+    color: lightgrey;
 }
+
+footer a {
+  color: inherit;
+  font-size: 0.75em;
+  }
