@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 html {
   padding: 1em;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 body {
@@ -12,26 +13,32 @@ body {
   color: Lavender;
   }
 
-a{
-  }
-  .typewrite{
+.typewrite{
     color = white;
     color: rgba(255,255,255,.75);
     font-family: 'Anonymous Pro', monospace;
     background-color: rgb(25,25,25);
     text-align: center;
-}
+  }
 
-  a:hover {
+a .typewrite :hover{
+    opacity: 1;
+  }
+
+.addicon{
+  
+  }
+
+a:hover {
   opacity: .5;
   }
 
-
-footer {
-    color: lightgrey;
-}
-
-footer a {
-  color: inherit;
-  font-size: 0.75em;
+.footer {
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
   }
